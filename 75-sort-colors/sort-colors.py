@@ -3,8 +3,6 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        if nums==[]:
-            return []
         nums.sort()
         return nums
         
