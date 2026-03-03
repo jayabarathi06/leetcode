@@ -1,6 +1,8 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        temp=x
+        strx=str(x)
+        return strx==strx[::-1]
+        ''' temp=x
         sum=0
         if temp<0:
           return False
@@ -11,4 +13,4 @@ class Solution:
         if sum==x:
           return True
         else:
-          return False
+          return False'''
