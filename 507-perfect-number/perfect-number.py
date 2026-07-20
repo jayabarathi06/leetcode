@@ -9,5 +9,5 @@ class Solution:
                 s+=i
                 if i!=num//i:
                     s+=num//i
-            i += 1
+            i+=1
         return s==num
