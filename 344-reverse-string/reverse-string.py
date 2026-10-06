@@ -4,7 +4,7 @@ class Solution:
         right=len(s)-1
         while(left<right):
             temp=s[right]
-            s[right]=s[left]
+            s[right]=s[left] #without using third variable s[l],s[r]=s[l],s[r]
             s[left]=temp
             right-=1
             left+=1
